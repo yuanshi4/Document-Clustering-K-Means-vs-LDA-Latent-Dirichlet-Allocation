@@ -2,28 +2,28 @@
 
 ### NLP Text Data Research
 
-- Motivation
+### Motivation
 Text data has been a recent challenge for data scientists to research and analyze given its unstructured format and non-numeric feature. It is quite different from the typical numeric or categorical features we encounter more often in data analysis task. The dataset we picked is a merged data source from three data sources, because we want to ensure there are three big topics, that are somewhat different, in order for our clustering algorithm to explore.
 
 [Note]: Alought our dataset only contains two columns, it is confirmed by instructor that it is ok to use, because text data are usually harder to clean and will eventual result in more columns.
 
 
-1. Kaggle Wine Review (400rows): Containing review written by professional sommelier about wines
+- Kaggle Wine Review (400rows): Containing review written by professional sommelier about wines
 
-2. Kaggle Coronavirus_Tweet (400rows): Containing real posts from Twitter by real human users discussing coronavirus
+- Kaggle Coronavirus_Tweet (400rows): Containing real posts from Twitter by real human users discussing coronavirus
 
-3. Kaggle Disater Tweet(400rows): Containing real posts from Twitter by real human users discussing disasters
+- Kaggle Disater Tweet(400rows): Containing real posts from Twitter by real human users discussing disasters
 
 
-- Algorithm Motivation
+### Algorithm Motivation
 The intial motivation of this analysis is to evaluate
 
-1.A topic modeling(text clustering) algorithm's performance (like Latent Dirichlet Allocation(LDA))
+- A topic modeling(text clustering) algorithm's performance (like Latent Dirichlet Allocation(LDA))
 
-2.Compare with more ordinal clustering algorithm like Kmeans
+- Compare with more ordinal clustering algorithm like Kmeans
 We are interested to see what additional information we can gain from LDA, which is a algorithm designed for topic exploration
 
-- Resource References
+### Resource References
 Miglani, Aman. “Coronavirus Tweets NLP - Text Classification.” Kaggle, 8 Sept. 2020, www.kaggle.com/datatattle/covid-19-nlp-text-classification.
 
 Zackthoutt. “Wine Reviews.” Kaggle, 27 Nov. 2017,Kaggle, www.kaggle.com/zynicide/wine-reviews.
