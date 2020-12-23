@@ -14,7 +14,16 @@ Text data has been a recent challenge for data scientists to research and analyz
 
 3. Kaggle Disater Tweet(400rows): Containing real posts from Twitter by real human users discussing disasters
 
-Resource References
+
+- Algorithm Motivation
+The intial motivation of this analysis is to evaluate
+
+1.A topic modeling(text clustering) algorithm's performance (like Latent Dirichlet Allocation(LDA))
+
+2.Compare with more ordinal clustering algorithm like Kmeans
+We are interested to see what additional information we can gain from LDA, which is a algorithm designed for topic exploration
+
+- Resource References
 Miglani, Aman. “Coronavirus Tweets NLP - Text Classification.” Kaggle, 8 Sept. 2020, www.kaggle.com/datatattle/covid-19-nlp-text-classification.
 
 Zackthoutt. “Wine Reviews.” Kaggle, 27 Nov. 2017,Kaggle, www.kaggle.com/zynicide/wine-reviews.
